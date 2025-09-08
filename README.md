@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>forms</title>
@@ -26,7 +25,6 @@
   <label for="Age:">Age:</label>
   <input type="number" name="age" id="age" /><br>
   <br>
-  
 <label for="Gender:">Gender:</label><br>
 <input type="radio" name="gender">
   <label for="Male">Male</label><br>
