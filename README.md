@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>form</title>
+  <title>forms</title>
 </head>
 <body>
   <h1>User Registration Form</h1>
@@ -32,6 +32,7 @@
   <label for="Male">Male</label><br>
   <input type="radio" name="gender">
   <label for="Female">Female</label>
+</select>
 <br>
 <br>
 <label for="Profile photo">Profile photo:</label>
@@ -71,8 +72,8 @@
       <legend>
         <h4>Preferences & interests</h4>
       </legend>
-      <label for="Favorite color:">Favorite color:</label>
-<input type="color" name="fav color" id="favorite color" value="#ff0000" /><br>
+      <label for="Favorite color">Favorite color:</label>
+    <input type="color" name="fav color" id="favorite color" value="blue" /><br>
     <br>
     <label for="Experience level(1-10)">Experience level(1-10):</label>
     <input type="range" name="text" id="experience level" value="level"
@@ -114,16 +115,18 @@
           </select><br>
           <br>
           <label for="Create password">Create password:</label>
-          <input type="password" name="confirm password" id="confirm password" required/><br>  <br>
+          <input type="password" name="confirm password" id="confirm password" required/><br>
+          <br>
           <label for="Confirm password">Confirm password:</label>
           <input type="password" name="password" id="password=" />
           </fieldset>
           <fieldset>
           <legend>
              <h4> Feedback & additional information</h4></legend>
-              <label for="info">Tell us about yourself:</label>
-<input type ="text" name="info" id="info" placeholder="Write a brief description about yourself..."
-style="width: 300px; height: 90px;"/><br>
+              <label for="Tell us about yourself">Tell us about yourself:</label>
+              <input type="text" name="info" id="info" placeholder="write a brief description about yourself..."
+              style="width: 300px;height: 90px;"
+              <br>
               <br>
               <label for="Suggestions for improvement">Suggestions for improvement:</label>
           <input type="text" placeholder="Any suggestions or feedback..."
@@ -150,13 +153,12 @@ style="width: 300px; height: 90px;"/><br>
           <input type="checkbox"/>
           <label for="I agree to the terms and conditions">I agree to the terms and conditions</label><br>
           <br>
-          <input type="checkbox" id="privacy" />
-<label for="privacy">I agree to the privacy policy</label><br>
+          <input type="checkbox" />
+          <label for="I agree to the private policy">I agree to the private policy</label<br>
           <br>
           </fieldset>
           <br>
-          <input type="submit" value="Register" />
-<input type="reset" value="Clear Form" />
-</form>
+        <input type="submit"value="register" /><input type="reset"value="clear form" />
+  </form>
 </body>
 </html>
